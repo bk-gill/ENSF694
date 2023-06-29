@@ -11,7 +11,8 @@ import java.util.Scanner;
 
 /*
  * To improve the linear search running time, I moved the found element to the front of the array to reduce future search times. 
- * This helps improve performance of the next search by reducing number of iterations.
+ * This helps improve performance of the next search by reducing number of iterations. Thus, the found search key will always be at index 0
+ * if included in the array.
  * 
  */
 
